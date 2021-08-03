@@ -1,0 +1,20 @@
+.authBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid grey;
+}
+
+.authBox>button, input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem 0;
+}
+
+.authBox>button {
+    background: grey;
+    color: white;
+}
